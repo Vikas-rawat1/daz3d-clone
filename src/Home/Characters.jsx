@@ -7,34 +7,34 @@ function Characters() {
     <>
       <div className="bg-black text-white">
         <div className="flex">
-          <p className="ml-12 mt-12  text-5xl font-poppins">
+          <p className="text-2xl ml-10 lg:ml-12 mt-12 lg:text-5xl font-poppins">
             Latest Characters
           </p>
         </div>
         <div className="flex">
-          <div className="justify-between m-auto">
-            <div className="grid grid-cols-2 m-auto gap-5 mt-10 mr-16 ml-16">
+          <div className="lg:justify-between lg:m-auto">
+            <div className="mt-6 lg:grid lg:grid-cols-2 m-auto lg:gap-5 lg:mt-10 lg:mr-10 lg:ml-10">
               <div>
                 <img src="images/latest-asset1.jpg" alt="asset1" />
-                <h1 className="text-4xl font-bold mt-4">
+                <h1 className="text-2xl ml-10 lg:ml-0 mt-6 font-semibold lg:text-4xl lg:font-bold lg:mt-4">
                   Be Your Own Mechanic
                 </h1>
-                <p className="w-40 mt-5 text-lg">
+                <p className="ml-10 w-40 mt-5 lg:text-lg lg:ml-0">
                   With our all new transforming cars!
                 </p>
-                <button className="mt-4  rounded-full w-40 h-10 text-black outline-none font-semibold bg-teal-400 hover:bg-transparent hover:text-teal-400 hover:border-teal-400 hover:border-2 transition duration-300">
+                <button className=" mt-6 mb-10 ml-10 lg:ml-0 lg:mt-4  rounded-full w-40 h-10 text-black outline-none font-semibold bg-teal-400 hover:bg-transparent hover:text-teal-400 hover:border-teal-400 hover:border-2 transition duration-300">
                   Explore Now
                 </button>
               </div>
               <div>
                 <img src="images/latest-asset2.jpg" alt="asset2" />
-                <h1 className="text-4xl font-bold mt-4">
-                  Be Your Own Mechanic{" "}
+                <h1 className="text-2xl ml-10 lg:ml-0 mt-6 font-semibold lg:text-4xl lg:font-bold lg:mt-4">
+                  Be Your Own Mechanic
                 </h1>
-                <p className="w-52 mt-5 text-lg">
+                <p className="w-52 ml-10 lg:ml-0 mt-5 text-lg">
                   Get ready space marines! Plus texture add-ons
                 </p>
-                <button className="mt-4  rounded-full w-40 h-10 text-black outline-none font-semibold bg-teal-400 hover:bg-transparent hover:text-teal-400 hover:border-teal-400 hover:border-2 transition duration-300">
+                <button className=" mt-6 mb-10 ml-10 lg:ml-0 lg:mt-4  rounded-full w-40 h-10 text-black outline-none font-semibold bg-teal-400 hover:bg-transparent hover:text-teal-400 hover:border-teal-400 hover:border-2 transition duration-300">
                   Explore Now
                 </button>
               </div>
