@@ -14,13 +14,15 @@ function Footer() {
         <div className="bg-headerColor text-yellow-50 flex ">
           <div className="lg:grid lg:grid-cols-3 mt-20 justify-between   lg:mx-auto flex flex-col-reverse">
             <ul className="mx-auto lg:text-sm lg:ml-auto ml-6">
-            <p className="border-2 lg:hidden flex  justify-center items-center mx-auto w-80 mb-10 "></p>
+              <span className="border-2 lg:hidden flex  justify-center items-center m-auto w-80 mb-10 ml-2 mr-2"></span>
               <li>
                 <img src="images/daz3d.svg" alt="" />
               </li>
               <li className="lg:mt-4 mt-6">
                 Daz 3D is part of
-                <span className="text-xl font-poppins font-semibold"> Tafi</span>
+                <span className="text-xl font-poppins font-semibold">
+                  Tafi
+                </span>
               </li>
               <li className="tracking-widest mt-5 mb-5">CONNECT</li>
               <li className="mt-1 flex gap-8">
