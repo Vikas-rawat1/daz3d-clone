@@ -11,13 +11,13 @@ function HeroSection() {
             autoPlay
             loop
             muted
-            className="w-full h-full object-cover mt-16"
+            className="w-full lg:h-full object-cover mt-16"
           ></video>
         </div>
-        <div className="absolute top-0 left-0 z-10 mb-16 ">
+        <div className="absolute top-0 left-0 z-10 lg:mb-16 ">
           <div className="grid grid-cols-2 gap-4 ">
             <div className="text-white ml-10 ">
-              <p className="mt-20  font-poppins font-semibold text-6xl">
+              <p className="lg:mt-20  font-poppins font-semibold lg:text-6xl text-xl ">
                 World's most versatile Genesis character creator
               </p>
               <p className=" mt-2 font-poppins w-4/5 text-lg">
