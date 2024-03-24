@@ -52,17 +52,18 @@ I'm a FrontEnd developer...
 
 ## Screenshots
 
-![screenshot1](https://github.com/Vikas-rawat1/daz3d_clone/assets/121391039/b00a0c99-7ba3-4a57-b244-81c953d0f9f6)
+![screenshot1](https://github.com/Vikas-rawat1/daz3d-clone/assets/121391039/99443d62-5de3-4581-b4f8-93b7a9260a8d)
 
-![screenshot2](https://github.com/Vikas-rawat1/daz3d_clone/assets/121391039/288bbcc8-3886-4399-bdaa-30efb9fd0e00)
+![screenshot2](https://github.com/Vikas-rawat1/daz3d-clone/assets/121391039/2004bf09-9e04-4968-a50a-7387adc64a13)
 
-![screenshot3](https://github.com/Vikas-rawat1/daz3d_clone/assets/121391039/03d81522-330c-4151-9fce-a0bdcd2d5926)
+![screenshot3](https://github.com/Vikas-rawat1/daz3d-clone/assets/121391039/5f311105-8b50-488e-8536-1c5d0dcfc37b)
 
-![screenshot4](https://github.com/Vikas-rawat1/daz3d_clone/assets/121391039/11bc25e8-5fa7-46ad-ba6f-df65bac770f2)
+![screenshot4](https://github.com/Vikas-rawat1/daz3d-clone/assets/121391039/e88a7845-40ec-42fb-908d-3ebbe39698b8)
 
-![screenshot5](https://github.com/Vikas-rawat1/daz3d_clone/assets/121391039/b59cba86-6f8f-4352-817c-81d8e03c9d33)
+![screenshot5](https://github.com/Vikas-rawat1/daz3d-clone/assets/121391039/e65de0ca-c3be-45cc-a297-8fa41bcd5e79)
 
-![screenshot6](https://github.com/Vikas-rawat1/daz3d_clone/assets/121391039/362b2e0c-4c77-4f29-bfcc-bc32f997e4bb)
+![screenshot6](https://github.com/Vikas-rawat1/daz3d-clone/assets/121391039/d5e847c2-b33f-43df-b6ba-bab8843d2385)
+
 
 ## Features
 
