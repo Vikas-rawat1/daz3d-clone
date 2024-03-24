@@ -75,7 +75,7 @@ function Characters() {
                 Get Daz Studio for free
               </button>
             </div>
-            <div className="lg:overflow-hidden lg:justify-end">
+            <div className="lg:overflow-hidden lg:justify-end ml-10 lg:ml-0">
               <video
                 src="images/character.mp4"
                 autoPlay
