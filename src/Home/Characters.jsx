@@ -87,21 +87,21 @@ function Characters() {
           </div>
         </div>
         <div className="relative">
-          <div className="bg-headerColor h-64">
-            <div className="bg-headerColor transform -skew-y-1 origin-top-left h-64">
+          <div className="bg-headerColor lg:h-64">
+            <div className="bg-headerColor transform -skew-y-1 origin-top-left lg:h-64 h-full">
               <div className="transform skew-y-1 flex justify-between">
-                <div className="justify-between ml-16 m-auto  mt-10">
-                  <div className="grid grid-cols-2">
+                <div className="lg:justify-between lg:ml-16 m-auto  mt-10 ">
+                  <div className="text-3xl  lg:grid lg:grid-cols-2">
                     <div className="justify-start ml-10 ">
-                      <h1 className="text-4xl w-3/5 mt-4  font-poppins font-bold ">
+                      <h1 className="lg:text-4xl lg:w-3/5 mt-4  font-poppins font-bold w-full">
                         Explore the Daz 3D store
                       </h1>
-                      <button className="mt-10  rounded-full w-44 h-12 text-black outline-none font-semibold bg-teal-400 hover:bg-transparent hover:text-teal-400 hover:border-teal-400 hover:border-2 transition duration-300">
+                      <button className="mt-5 text-xl  lg:mt-10  rounded-full w-44 h-12 text-black outline-none font-semibold bg-teal-400 hover:bg-transparent hover:text-teal-400 hover:border-teal-400 hover:border-2 transition duration-300">
                         Shop now
                       </button>
                     </div>
                     <div className="">
-                      <ul className="text-xl mt-4">
+                      <ul className="text-xl mt-4 ml-8 mb-12 ">
                         <li className="flex mt-4 gap-2">
                           <RiCheckFill size={32} color="#00e4bb" /> Tens of
                           thousands of premade 3D models
@@ -114,7 +114,7 @@ function Characters() {
                           <RiCheckFill size={32} color="#00e4bb" />
                           Environments, 3D props, wearables & more
                         </li>
-                        <li className="flex mt-4 gap-2">
+                        <li className="flex mt-4 gap-2 ">
                           <RiCheckFill size={32} color="#00e4bb" /> Texture,
                           shaders, lighting & animation kits
                         </li>

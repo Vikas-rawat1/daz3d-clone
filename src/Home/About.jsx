@@ -84,27 +84,27 @@ function About() {
       {/* New Section */}
       <div className=" text-white h-full" style={color}>
         <div className="flex">
-          <h1 className="m-auto mt-14  leading-normal text-center text-5xl font-semibold w-96 font-poppins">
+          <h1 className="text-4xl w-80 m-auto mt-14  leading-normal text-center lg:text-5xl font-semibold lg:w-96 font-poppins">
             Work faster & smarter with Daz 3D software
           </h1>
         </div>
-        <p className="m-auto mt-2 text-xm w-96 leading-normal text-center font-poppins">
+        <p className="m-auto w-72 mt-4 lg:text-xm lg:w-96 leading-normal text-center font-poppins">
           Daz Studio is your ultimate toolkit, whether you're an experienced
           artist or just starting. Craft captivating characters and scenes
           effortlessly
         </p>
         <div className="justify-between m-auto mt-16 ">
-          <div className="grid grid-cols-3 m-auto justify-center ">
+          <div className="lg:grid lg:grid-cols-3 m-auto justify-center ">
             <div>
               <img
                 src="images/about-asset1.png"
                 alt=""
-                className="w-12 mx-auto"
+                className="w-12 mx-auto mt-20 lg:mt-0"
               />
-              <h1 className=" mx-auto text-center mt-5 font-poppins font-semibold text-2xl">
+              <h1 className=" mx-auto text-xl text-center mt-5 font-poppins font-semibold lg:text-2xl">
                 Accelerate your workflow
               </h1>
-              <p className="w-4/5 mx-auto text-center mt-4 font-poppins  text-xl">
+              <p className="w-4/5 mx-auto text-center mt-4 font-poppins lg:text-xl">
                 Craft your characters and scenes using our integrated character
                 creator and store, supercharging your creative process
               </p>
@@ -113,9 +113,9 @@ function About() {
               <img
                 src="images/about-asset2.png"
                 alt=""
-                className="w-16 mx-auto"
+                className="w-16 mx-auto mt-20 lg:mt-0"
               />
-              <h1 className=" mx-auto text-center mt-5 font-poppins font-semibold text-2xl">
+              <h1 className=" mx-auto text-center text-xl mt-5 font-poppins font-semibold lg:text-2xl">
                 User-friendly interface
               </h1>
               <p className="w-4/5 mx-auto text-center mt-4 font-poppins  text-xl">
@@ -128,12 +128,12 @@ function About() {
               <img
                 src="images/about-asset3.png"
                 alt=""
-                className="w-16 mx-auto"
+                className="w-16 mx-auto mt-20 lg:mt-0"
               />
-              <h1 className=" mx-auto text-center mt-5 font-poppins font-semibold text-2xl">
+              <h1 className=" mx-auto text-center text-xl mt-5 font-poppins font-semibold lg:text-2xl">
                 Export
               </h1>
-              <p className="w-4/5 mx-auto text-center mt-4 font-poppins  text-xl">
+              <p className="w-4/5 mx-auto text-center mt-4 font-poppins text-xl">
                 Extend your creative reach by exporting your work to popular
                 platforms through our Bridges
               </p>
