@@ -140,7 +140,7 @@ function About() {
             </div>
           </div>
           <div class="flex justify-center items-center mt-20 ">
-            <button class="rounded-full w-64 h-12 mb-28 text-black outline-none font-semibold bg-teal-400 hover:bg-transparent hover:text-teal-400 hover:border-teal-400 hover:border-2 transition duration-300">
+            <button class="rounded-full w-64 h-12 mb-16 text-black outline-none font-semibold bg-teal-400 hover:bg-transparent hover:text-teal-400 hover:border-teal-400 hover:border-2 transition duration-300">
               Get started for free
             </button>
           </div>
@@ -148,64 +148,64 @@ function About() {
       </div>
       <div className="bg-black text-white">
         <div className="flex">
-          <p className="text-5xl leading-tight		 font-bold font-poppins w-3/5 text-center mx-auto mt-28">
+          <p className="text-3xl w-3/4 lg:text-5xl font-bold font-poppins lg:w-3/5 text-center mx-auto mt-16 lg:mt-28">
             Bring your content library to your favorite 3D software
           </p>
         </div>
         <div class="mt-10">
-          <div class="flex border-2 border-bgColor rounded-full w-3/5 h-20 mx-auto items-center justify-center ">
+          <div class="flex w-80 h-10 border-2 border-bgColor rounded-full lg:w-3/5 lg:h-20 mx-auto items-center justify-center ">
             <div class=" ">
               <img
                 src="images/software1.png"
                 alt="Software-Image"
-                className="object-fit w-14 h-12"
+                className="object-fit w-6 lg:w-14 lg:h-12"
               />
             </div>
-            <div class="ml-12">
+            <div class="lg:ml-12 ml-4">
               <img
                 src="images/software2.png"
                 alt="Software-Image"
-                className="object-fit w-14 h-12"
+                className="object-fit w-6 lg:w-14 lg:h-12"
               />
             </div>
-            <div class="ml-12">
+            <div class="lg:ml-12 ml-4">
               <img
                 src="images/software3.png"
                 alt="Software-Image"
-                className="object-fit w-14 h-12"
+                className="object-fit w-6 lg:w-14 lg:h-12"
               />
             </div>
-            <div class="ml-12">
+            <div class="lg:ml-12 ml-4">
               <img
                 src="images/software4.png"
                 alt="Software-Image"
-                className="object-fit w-14 h-12"
+                className="object-fit w-6 lg:w-14 lg:h-12"
               />
             </div>
-            <div class="ml-12">
+            <div class="lg:ml-12 ml-4">
               <img
                 src="images/software5.png"
                 alt="Software-Image"
-                className="object-fit w-14 h-12"
+                className="object-fit w-6 lg:w-14 lg:h-12"
               />
             </div>
-            <div class="ml-12">
+            <div class="lg:ml-12 ml-4">
               <img
                 src="images/software6.png"
                 alt="Software-Image"
-                className="object-fit w-14 h-12"
+                className="object-fit w-6 lg:w-14 lg:h-12"
               />
             </div>
-            <div class="ml-12">
+            <div class="lg:ml-12 ml-4">
               <img
                 src="images/software7.png"
                 alt="Software-Image"
-                className="object-fit w-14 h-12"
+                className="object-fit w-6 lg:w-14 lg:h-12"
               />
             </div>
           </div>
           <div class="flex justify-center items-center mt-10 ">
-            <button class="rounded-full w-72 h-12 mb-28  text-lg text-black outline-none font-semibold bg-teal-400 hover:bg-transparent hover:text-teal-400 hover:border-teal-400 hover:border-2 transition duration-300">
+            <button class="rounded-full  w-72 h-10 lg:h-12 mb-28 text-xl lg:text-lg text-black outline-none font-semibold bg-teal-400 hover:bg-transparent hover:text-teal-400 hover:border-teal-400 hover:border-2 transition duration-300">
               Learn about Daz Bridges
             </button>
           </div>
