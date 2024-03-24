@@ -13,7 +13,7 @@ function Characters() {
         </div>
         <div className="flex">
           <div className="lg:justify-between lg:m-auto">
-            <div className="mt-6 lg:grid lg:grid-cols-2 m-auto lg:gap-5 lg:mt-10 lg:mr-10 lg:ml-10">
+            <div className="mt-6 lg:grid lg:grid-cols-2 m-auto lg:gap-5 lg:mt-10 lg:mr-10 lg:ml-10 ">
               <div>
                 <img src="images/latest-asset1.jpg" alt="asset1" />
                 <h1 className="text-2xl ml-10 lg:ml-0 mt-6 font-semibold lg:text-4xl lg:font-bold lg:mt-4">
@@ -29,7 +29,7 @@ function Characters() {
               <div>
                 <img src="images/latest-asset2.jpg" alt="asset2" />
                 <h1 className="text-2xl ml-10 lg:ml-0 mt-6 font-semibold lg:text-4xl lg:font-bold lg:mt-4">
-                  Be Your Own Mechanic
+                  Introducing Sophia 9
                 </h1>
                 <p className="w-52 ml-10 lg:ml-0 mt-5 text-lg">
                   Get ready space marines! Plus texture add-ons
@@ -41,16 +41,20 @@ function Characters() {
             </div>
           </div>
         </div>
-        <div className="justify-between m-auto">
-          <div className="grid grid-cols-2 m-auto gap-5 mt-20 mr-16 ml-16">
-            <div className="mt-64 ">
-              <p className="text-6xl font-semibold font-poppins">
+        <div className="justify-between flex-col">
+          <div className="ml-10  lg:grid lg:grid-cols-2 m-auto gap-5 mt-1 mr-16 lg:ml-16">
+            <div className="lg:mt-44 ">
+              <p className="text-3xl lg:text-6xl font-semibold font-poppins">
                 Character creator
               </p>
-              <ul className="text-xl mt-4">
+              <ul className="text-xl lg:text-xl mt-8 ml-2 lg:w-full w-80">
                 <li className="flex mt-4 gap-2">
-                  <RiCheckFill size={22} color="#00e4bb" /> Fully rigged from
-                  hyper-realistic to toon style 3D models
+                  <RiCheckFill
+                    className="lg:w-33 h-33"
+                    size={22}
+                    color="#00e4bb"
+                  />
+                  Fully rigged from hyper-realistic to toon style 3D models
                 </li>
                 <li className="flex mt-4 gap-2">
                   <RiCheckFill size={32} color="#00e4bb" /> Mix and match
@@ -67,17 +71,17 @@ function Characters() {
                   mythical creatures
                 </li>
               </ul>
-              <button className="mt-20  rounded-full w-64 h-10 text-black outline-none font-semibold bg-teal-400 hover:bg-transparent hover:text-teal-400 hover:border-teal-400 hover:border-2 transition duration-300">
+              <button className="mt-10 w-60  mb-20 rounded-full lg:w-64 h-10 text-black outline-none font-semibold bg-teal-400 hover:bg-transparent hover:text-teal-400 hover:border-teal-400 hover:border-2 transition duration-300">
                 Get Daz Studio for free
               </button>
             </div>
-            <div className="overflow-hidden flex justify-end">
+            <div className="lg:overflow-hidden  lg:justify-end">
               <video
                 src="images/character.mp4"
                 autoPlay
                 muted
                 loop
-                className="h-6/6 overflow-hidden"
+                className="lg:h-screen lg:justify-end  overflow-hidden lg:ml-40  "
               ></video>
             </div>
           </div>
@@ -107,7 +111,7 @@ function Characters() {
                           3D characters
                         </li>
                         <li className="flex mt-4 gap-2">
-                          <RiCheckFill size={32} color="#00e4bb" />{" "}
+                          <RiCheckFill size={32} color="#00e4bb" />
                           Environments, 3D props, wearables & more
                         </li>
                         <li className="flex mt-4 gap-2">
