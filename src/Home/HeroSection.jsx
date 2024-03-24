@@ -11,7 +11,7 @@ function HeroSection() {
             autoPlay
             loop
             muted
-            className="w-full h-80  lg:h-full object-cover mt-16"
+            className="w-full h-80 lg:h-full object-cover mt-16"
           ></video>
         </div>
         <div className="absolute top-0 left-0 z-10 lg:mb-16 ">
@@ -24,24 +24,48 @@ function HeroSection() {
                 The integrated character creation system in our free 3D software
                 forms the cornerstone of Daz’s ecosystem
               </p>
-              <button className="mt-4  rounded-full w-52 h-10 text-black outline-none font-semibold bg-teal-400 hover:bg-transparent hover:text-teal-400 hover:border-teal-400 hover:border-2 transition duration-300">
+              <button className="mt-4 rounded-full w-52 h-10 text-black outline-none font-semibold bg-teal-400 hover:bg-transparent hover:text-teal-400 hover:border-teal-400 hover:border-2 transition duration-300">
                 Get started for free
               </button>
             </div>
           </div>
         </div>
-        <div className=" justify-between grid grid-cols-4  gap-10 items-center text-white bg-headerColor font-poppins h-64">
-          <div className="ml-14 mt-8 flex">
+        <div className=" lg:justify-between grid lg:grid-cols-4  lg:gap-10 lg:items-center text-white bg-headerColor font-poppins h-64">
+          <div className="lg:ml-14 mt-8 flex ">
             <img
               src="images/daz-ecosystem.png"
               alt="Daz Ecosystem"
-              className=" h-26 w-4/5 "
+              className="h-2/5 mx-auto lg:h-26 lg:w-4/5 lg:mx-0 "
             />
+
             <svg
               id="chevrons"
               xmlns="http://www.w3.org/2000/svg"
               viewBox="0 0 675.01 561.83"
-              className="absolute mt-2 h-14 ml-36 animate-pulse infinite "
+              className="absolute hidden lg:block rotate-90  m-auto lg:rotate-0 mt-20 h-8 lg:h-12 lg:mt-2 lg:ml-36 animate-pulse infinite"
+            >
+              <polygon
+                class="chev chev1"
+                fill="#00e4bb"
+                points="148.47 83.06 53.14 83.06 183.66 276.14 53.14 476.5 148.47 476.5 278.99 276.14 148.47 83.06"
+              ></polygon>
+              <polygon
+                class="chev chev2"
+                fill="#00e4bb"
+                points="286.12 49.24 190.79 49.24 343.02 276.14 188.05 512.59 283.38 512.59 438.35 276.14 286.12 49.24"
+              ></polygon>
+              <polygon
+                class="chev chev3"
+                fill="#00e4bb"
+                points="461.35 83.06 366.02 83.06 496.54 276.14 366.02 476.5 461.35 476.5 591.87 276.14 461.35 83.06"
+              ></polygon>
+            </svg>
+            {/* MOBILE  */}
+            <svg
+              id="chevrons"
+              xmlns="http://www.w3.org/2000/svg"
+              viewBox="0 0 675.01 561.83"
+              className="absolute lg:hidden left-1/2 top-2/2 mt-28 transform -translate-x-1/2 -translate-y-1/2 rotate-90 justify-center m-auto lg:rotate-0  h-8 lg:h-12 lg:mt-2 lg:ml-36 animate-pulse infinite"
             >
               <polygon
                 class="chev chev1"
