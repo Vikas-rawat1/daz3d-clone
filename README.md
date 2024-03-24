@@ -1,7 +1,7 @@
 
 # Daz 3D
 
-Welcome to the Daz3D Clone Landing Page!
+Welcome to the Daz3D Clone Landing Page in REACT!
 
 This project is a simplified clone of the popular 3D modeling and animation software, Daz3D. Our landing page provides a glimpse into the core functionalities of Daz3D, offering users a preview of what they can expect from our clone.
 
