@@ -19,7 +19,7 @@ git clone https://github.com/Vikas-rawat1/daz3d-clone.git
 
 2-Navigate to the project directory:
 ````markdown
-cd az3d_clone
+cd daz3d-clone
 ````
 3-Install dependencies:
 ````markdown
