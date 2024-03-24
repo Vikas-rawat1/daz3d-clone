@@ -42,7 +42,7 @@ function Characters() {
           </div>
         </div>
         <div className="justify-between flex-col">
-          <div className="ml-10  lg:grid lg:grid-cols-2 m-auto gap-5 mt-1 mr-16 lg:ml-16">
+          <div className="ml-10  lg:grid lg:grid-cols-2 m-auto gap-5 mt-1 mr-16 lg:ml-16 flex flex-col-reverse">
             <div className="lg:mt-44 ">
               <p className="text-3xl lg:text-6xl font-semibold font-poppins">
                 Character creator
@@ -71,11 +71,11 @@ function Characters() {
                   mythical creatures
                 </li>
               </ul>
-              <button className="mt-10 w-60  mb-20 rounded-full lg:w-64 h-10 text-black outline-none font-semibold bg-teal-400 hover:bg-transparent hover:text-teal-400 hover:border-teal-400 hover:border-2 transition duration-300">
+              <button className="mt-10 w-60 mb-20 rounded-full lg:w-64 h-10 text-black outline-none font-semibold bg-teal-400 hover:bg-transparent hover:text-teal-400 hover:border-teal-400 hover:border-2 transition duration-300">
                 Get Daz Studio for free
               </button>
             </div>
-            <div className="lg:overflow-hidden  lg:justify-end">
+            <div className="lg:overflow-hidden lg:justify-end">
               <video
                 src="images/character.mp4"
                 autoPlay
@@ -127,7 +127,7 @@ function Characters() {
           </div>
         </div>
       </div>
-      <About />
+      <About/>
     </>
   );
 }
