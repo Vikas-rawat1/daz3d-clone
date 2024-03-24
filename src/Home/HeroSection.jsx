@@ -4,9 +4,9 @@ import Characters from "./Characters";
 function HeroSection() {
   return (
     <>
-      <div className="relative w-full lg:h-full ">
+      <div className="relative w-full h-full ">
         <div>
-          <video
+        <video
             src="images/hero.mp4"
             autoPlay
             loop
@@ -30,19 +30,18 @@ function HeroSection() {
             </div>
           </div>
         </div>
-        <div className=" lg:justify-between grid lg:grid-cols-4  lg:gap-10 lg:items-center text-white bg-headerColor font-poppins h-64">
+        <div className=" lg:justify-between grid  grid-cols-1 lg:grid-cols-4  lg:gap-10 lg:items-center text-white bg-headerColor font-poppins lg:h-64 " >
           <div className="lg:ml-14 mt-8 flex ">
             <img
               src="images/daz-ecosystem.png"
               alt="Daz Ecosystem"
-              className="h-2/5 mx-auto lg:h-26 lg:w-4/5 lg:mx-0 "
+              className="h-20 mb-16 mx-auto lg:h-26 lg:w-4/5 lg:mx-0 "
             />
-
             <svg
               id="chevrons"
               xmlns="http://www.w3.org/2000/svg"
               viewBox="0 0 675.01 561.83"
-              className="absolute hidden lg:block rotate-90  m-auto lg:rotate-0 mt-20 h-8 lg:h-12 lg:mt-2 lg:ml-36 animate-pulse infinite"
+              className="absolute hidden lg:block     mt-20 h-8 lg:h-12 lg:mt-2 lg:ml-36 animate-pulse infinite"
             >
               <polygon
                 class="chev chev1"
@@ -84,31 +83,47 @@ function HeroSection() {
               ></polygon>
             </svg>
           </div>
-          <div className="w-4/5 mt-8  mb-10">
-            <img src="images/cart.svg" alt="Cart" className="w-12 mb-2" />
-            <p className="text-2xl font-bold">Daz store</p>
-            <p className="text-lg ">
-              Ready-made 3D models and kits for characters, environments & props
-            </p>
+          <div className="lg:w-4/5 lg:mt-8 lg:block lg:mb-10 w-72 flex gap-10 ml-6 items-center">
+            <img
+              src="images/cart.svg"
+              alt="Cart"
+              className="lg:w-10 w-10 lg:mb-2"
+            />
+            <div>
+              <p className="lg:text-2xl text-xl font-bold ">Daz store</p>
+              <p className="lg:text-lg text-lg ">
+                Ready-made 3D models and kits for characters, environments &
+                props
+              </p>
+            </div>
           </div>
-          <div className="w-4/5 mt-8 mb-10">
+          <div className="lg:w-4/5 lg:mt-8 lg:block lg:mb-10  w-72 flex gap-10 ml-6 mt-6 items-center">
             <img
               src="images/character.png"
               alt="Character"
-              className="w-10 mb-2"
+              className="lg:w-10 w-10 lg:mb-2"
             />
-            <p className="text-2xl font-bold">Character creator</p>
-            <p className="text-lg">
-              Quickly dress and alter your character shapes, textures & hair
-            </p>
+            <div>
+              <p className="text-2xl font-bold">Character creator</p>
+              <p className="lg:text-lg">
+                Quickly dress and alter your character shapes, textures & hair
+              </p>
+            </div>
           </div>
 
-          <div className="w-4/5 mt-8 mb-10">
-            <img src="images/studio.png" alt="Studio" className="w-12 mb-2" />
-            <p className="text-2xl font-bold">Daz Studio</p>
-            <p className="text-lg">
-              Create 3D scenes fast & intuitively with our essential 3D software
-            </p>
+          <div className="lg:w-4/5 lg:mt-8 lg:block lg:mb-10 w-72 flex gap-10 ml-6 mt-6 items-center">
+            <img
+              src="images/studio.png"
+              alt="Studio"
+              className="lg:w-12 w-10 lg:mb-2"
+            />
+            <div>
+              <p className="text-2xl font-bold">Daz Studio</p>
+              <p className="text-lg mb-12 lg:mb-0">
+                Create 3D scenes fast & intuitively with our essential 3D
+                software
+              </p>
+            </div>
           </div>
         </div>
       </div>
