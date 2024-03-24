@@ -101,7 +101,7 @@ function Characters() {
                       </button>
                     </div>
                     <div className="">
-                      <ul className="text-xl mt-4 ml-8 mb-12 ">
+                      <ul className="text-xl mt-4 ml-8 mb-10 ">
                         <li className="flex mt-4 gap-2">
                           <RiCheckFill size={32} color="#00e4bb" /> Tens of
                           thousands of premade 3D models
