@@ -25,7 +25,7 @@ function Navigation() {
       setCommunityCollapsed(true); // Close community collapsible
     }
   };
-  
+
   const toggleModelCollapsed = () => {
     setModelCollapsed(!isModelCollapsed);
     if (!isModelCollapsed) {
@@ -33,7 +33,7 @@ function Navigation() {
       setCommunityCollapsed(true); // Close community collapsible
     }
   };
-  
+
   const toggleCommunityCollapsed = () => {
     setCommunityCollapsed(!isCommunityCollapsed);
     if (!isCommunityCollapsed) {
@@ -41,7 +41,7 @@ function Navigation() {
       setModelCollapsed(true); // Close models collapsible
     }
   };
-  
+
   return (
     <>
       <div className="fixed top-0 left-0 right-0 w-full z-20">
@@ -49,19 +49,22 @@ function Navigation() {
           <div>
             <ul className="flex items-center text-xs gap-4 ml-4">
               <li>
-                <img src="images/daz3d.svg" alt="Logo" className="h-7" />
+              <Link to="/">
+                 <img src="images/daz3d.svg" alt="Logo" className="h-7" />
+
+              </Link>
               </li>
               <li>
-                <Link to="/shop">SHOP</Link>
+                <Link to="">SHOP</Link>
               </li>
               <li>
-                <Link to="/software">3D SOFTWARE</Link>
+                <Link to="">3D SOFTWARE</Link>
               </li>
               <li>
-                <Link to="/models">3D MODELS</Link>
+                <Link to="">3D MODELS</Link>
               </li>
               <li>
-                <Link to="/community">COMMUNITY</Link>
+                <Link to="">COMMUNITY</Link>
               </li>
             </ul>
           </div>
@@ -96,8 +99,9 @@ function Navigation() {
             </li>
           </ul>
         </div>
+        <div className="transition-transform duration-900 ">
         {showMenu && (
-          <div className="lg:hidden fixed top-0 left-0 h-full bg-gray-800 w-11/12 overflow-y-scroll">
+          <div className="lg:hidden fixed top-0 left-0 h-full bg-gray-800 w-11/12 overflow-y-scroll transition-transform duration-900 ">
             <ul className=" transition-transform duration-900 text-xm text-yellow-50  ">
               <span>
                 <li className="flex items-center justify-between mt-4 ml-3">
@@ -190,6 +194,7 @@ function Navigation() {
             </ul>
           </div>
         )}
+      </div>
       </div>
     </>
   );
