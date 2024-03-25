@@ -1,10 +1,10 @@
 import React from "react";
 import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
-import Footer from "./CommonFiles/Footer";
-import Navigation from "./CommonFiles/Navigation";
+import Navigation from "./components/Navigation";
 import Shop from "./Pages/Shop";
-import HeroSection from "./Home/HeroSection";
+import HeroSection from "./components/Home/HeroSection";
 import Software from "./Pages/Software";
+import Footer from "./components/Footer";
 
 function App() {
   return (
@@ -16,7 +16,7 @@ function App() {
           <Route path="/Shop" element={<Shop />} />
           <Route path="/software" element={<Software />} />
         </Routes>
-        <Footer />
+        <Footer/>
       </Router>
   );
 }

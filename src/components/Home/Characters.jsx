@@ -1,6 +1,6 @@
 import React from "react";
 import { RiCheckFill } from "react-icons/ri";
-import "../App.css";
+import "../../App.css";
 import About from "./About";
 function Characters() {
   return (
@@ -127,7 +127,7 @@ function Characters() {
           </div>
         </div>
       </div>
-      <About/>
+     <About/>
     </>
   );
 }

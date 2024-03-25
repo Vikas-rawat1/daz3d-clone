@@ -1,21 +1,12 @@
-import React from "react";
+import React, { useState } from "react";
 import { Link } from "react-router-dom";
-// import Shop from "../Pages/Shop";
-import {
-  RiHammerFill,
-  RiMenu2Fill,
-  RiMenu2Line,
-  RiMenu3Fill,
-  RiMenu3Line,
-  RiMenu4Fill,
-  RiMenu5Fill,
-  RiMenuLine,
-  RiMenuUnfoldFill,
-  RiSearch2Line,
-  RiShoppingCartLine,
-  RiUserLine,
-} from "react-icons/ri";
+import { RiSearch2Line, RiShoppingCartLine, RiUserLine } from "react-icons/ri";
 function Navigation() {
+  const [showMenu, setShowMenu] = useState(false);
+  const toggleMenu = () => {
+    setShowMenu(!showMenu);
+  };
+
   return (
     <>
       <div className="fixed top-0 left-0 right-0 w-full z-20">
@@ -55,7 +46,7 @@ function Navigation() {
         </div>
         <div className=" lg:hidden justify-between h-16 items-center bg-headerColor text-gray-400 flex">
           <ul>
-            <li className="flex gap-2 ml-4">
+            <li className="flex gap-2 ml-4" onClick={toggleMenu}>
               <img src="images/hamburger.svg" alt="Logo" className="w-8" />
               <RiSearch2Line size={30} />
             </li>
@@ -70,6 +61,11 @@ function Navigation() {
             </li>
           </ul>
         </div>
+        {showMenu && (
+          <div className="lg:hidden fixed top-0 left-0 h-full bg-gray-800 w-64">
+            {/* Add sidebar content here */}
+          </div>
+        )}
       </div>
     </>
   );
