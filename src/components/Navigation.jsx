@@ -97,8 +97,8 @@ function Navigation() {
           </ul>
         </div>
         {showMenu && (
-          <div className="lg:hidden fixed top-0 left-0 h-full bg-gray-800 w-11/12">
-            <ul className=" transition-transform duration-900 text-xm text-yellow-50 ">
+          <div className="lg:hidden fixed top-0 left-0 h-full bg-gray-800 w-11/12 overflow-y-scroll">
+            <ul className=" transition-transform duration-900 text-xm text-yellow-50  ">
               <span>
                 <li className="flex items-center justify-between mt-4 ml-3">
                   <RiCloseLine size={30} onClick={toggleMenu} />
