@@ -11,7 +11,6 @@ import {
 import Collapsible from "react-collapsible";
 function Navigation() {
   const [showMenu, setShowMenu] = useState(false);
-  const [isCollapsed, setCollapsed] = useState(true);
   const [isSoftwareCollapsed, setSoftwareCollapsed] = useState(true);
   const [isModelCollapsed, setModelCollapsed] = useState(true);
   const [isCommunityCollapsed, setCommunityCollapsed] = useState(true);
@@ -19,19 +18,30 @@ function Navigation() {
     setShowMenu(!showMenu);
   };
 
-  const toggleCollapse = () => {
-    setCollapsed(!isCollapsed);
-  };
-
   const toggleSoftwareCollapsed = () => {
     setSoftwareCollapsed(!isSoftwareCollapsed);
+    if (!isSoftwareCollapsed) {
+      setModelCollapsed(true); // Close models collapsible
+      setCommunityCollapsed(true); // Close community collapsible
+    }
   };
+  
   const toggleModelCollapsed = () => {
     setModelCollapsed(!isModelCollapsed);
+    if (!isModelCollapsed) {
+      setSoftwareCollapsed(true); // Close software collapsible
+      setCommunityCollapsed(true); // Close community collapsible
+    }
   };
+  
   const toggleCommunityCollapsed = () => {
     setCommunityCollapsed(!isCommunityCollapsed);
+    if (!isCommunityCollapsed) {
+      setSoftwareCollapsed(true); // Close software collapsible
+      setModelCollapsed(true); // Close models collapsible
+    }
   };
+  
   return (
     <>
       <div className="fixed top-0 left-0 right-0 w-full z-20">
@@ -87,8 +97,8 @@ function Navigation() {
           </ul>
         </div>
         {showMenu && (
-          <div className="lg:hidden fixed top-0 left-0 h-full bg-gray-800 w-11/12  ">
-            <ul className=" transition-transform duration-300 text-xm text-yellow-50 ">
+          <div className="lg:hidden fixed top-0 left-0 h-full bg-gray-800 w-11/12">
+            <ul className=" transition-transform duration-900 text-xm text-yellow-50 ">
               <span>
                 <li className="flex items-center justify-between mt-4 ml-3">
                   <RiCloseLine size={30} onClick={toggleMenu} />
@@ -138,7 +148,7 @@ function Navigation() {
                       onClick={toggleModelCollapsed}
                     >
                       3D MODELS
-                      {isCollapsed ? (
+                      {isModelCollapsed ? (
                         <RiArrowDropRightLine size={30} />
                       ) : (
                         <RiArrowDropDownLine size={30} />
@@ -159,7 +169,7 @@ function Navigation() {
                       onClick={toggleCommunityCollapsed}
                     >
                       COMMUNITY
-                      {isCollapsed ? (
+                      {isCommunityCollapsed ? (
                         <RiArrowDropRightLine size={30} />
                       ) : (
                         <RiArrowDropDownLine size={30} />
