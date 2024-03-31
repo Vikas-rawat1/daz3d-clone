@@ -25,7 +25,7 @@ function Software() {
             <img
               src="softwareimages/hero-mobile.jpg"
               alt="Hero Image"
-              className=" lg:hidden lg:object-contain lg:w-full lg:h-full"
+              className="w-full lg:hidden lg:object-contain lg:w-full lg:h-full"
             />
             <div className="absolute lg:bottom-40 lg:top-60 lg:right-80 text-white ">
               <h1 className="text-5xl ">Create More</h1>
@@ -129,7 +129,7 @@ function Software() {
             </div>
           </div>
           <div>
-            <div className="h-screen lg:relative lg:h-auto m-auto w-80 lg:w-4/5 mt-20 lg:mb-10 shadow-purple-500 shadow-lg  rounded-2xl top-0">
+            <div className=" h-full lg:relative lg:h-auto m-auto w-4/5 lg:w-4/5 mt-20 lg:mb-10 shadow-purple-500 shadow-lg  rounded-2xl top-0">
               <video
                 src="softwareimages/werewolf.mp4"
                 loop
@@ -138,8 +138,8 @@ function Software() {
                 className=" hidden lg:flex rounded-2xl"
               ></video>
 
-              <div className="mt-10 text-center lg:absolute lg:top-0 font-poppins lg:ml-20 lg:text-left">
-                <h1 className="text-2xl lg:mt-0">Shaping Technology</h1>
+              <div className="mt-4 text-center lg:absolute lg:top-0 font-poppins lg:ml-20 lg:text-left">
+                <h1 className="text-2xl">Shaping Technology</h1>
                 <p className="w-72 m-auto lg:w-80 mt-16 text-xm lg:mt-5">
                   Daz Studio offers shaping technology so you can mix and match
                   your characters with the shapes pane. This tool lets you
@@ -181,78 +181,78 @@ function Software() {
             </div>
           </div>
 
-          <div className="mt-16 relative ">
-            <div className="absolute m-auto left-1/2 ri transform -translate-x-1/2">
-              <h1 className="mt-12 text-3xl font-poppins">
+          <div className="mt-16 lg:relative ">
+            <div className="text-center m-auto flex justify-center lg:absolute lg:m-auto lg:left-1/2 lg:ri lg:transform lg:-translate-x-1/2">
+              <h1 className=" absolute font-semibold w-60 text-4xl lg:w-96 lg:mt-12 lg:text-2xl font-poppins">
                 History of the Genesis Platform
               </h1>
-              {/* <img
-              src="softwareimages/figureplatformbg.png"
-              alt="figureplatformbg"
-              className=""
-            /> */}
+              <img
+                src="softwareimages/figureplatformbg.png"
+                alt="figureplatformbg"
+                className=""
+              />
             </div>
             <img
               src="softwareimages/genesis-bg.png"
               alt="Hero Image"
-              className="object-contain w-full h-full"
+              className="hidden lg:flex object-contain w-full h-full"
             />
-            <div className="absolute bottom-40 top-32 right-80 text-white">
-              <div className=" flex justify-center mx-auto ml-80">
+            <div className="lg:absolute lg:bottom-40 lg:top-32 lg:right-80 text-white">
+              <div className="flex flex-wrap justify-center lg:flex-nowrap lg:mx-auto lg:ml-80 ml-0">
                 <img
                   src="softwareimages/genesis1.png"
                   alt=""
-                  className=" h-2/5  w-20 "
-                />
-                <img
-                  src="softwareimages/genesis1.png"
-                  alt=""
-                  className=" h-2/5 -ml-40 w-64 "
+                  className="h-20 lg:h-2/5 lg:w-64 "
                 />
                 <img
                   src="softwareimages/genesis2.png"
                   alt=""
-                  className=" h-2/5 -ml-40 w-64 "
+                  className="h-20 lg:h-2/5 lg:-ml-40 lg:w-64"
                 />
                 <img
                   src="softwareimages/genesis3.png"
                   alt=""
-                  className=" h-2/5 -ml-40 w-64 "
+                  className="h-20 lg:h-2/5 lg:-ml-40 lg:w-64"
                 />
                 <img
                   src="softwareimages/genesis4.png"
                   alt=""
-                  className=" h-2/5 -ml-40 w-64 "
+                  className="h-20 lg:h-2/5 lg:-ml-40 lg:w-64"
                 />
                 <img
                   src="softwareimages/genesis5.png"
                   alt=""
-                  className=" h-2/5 -ml-40 w-64 "
+                  className="h-20 lg:h-2/5 lg:-ml-40 lg:w-64"
                 />
                 <img
                   src="softwareimages/genesis6.png"
                   alt=""
-                  className=" h-2/5 -ml-40 w-64 "
+                  className="h-20 lg:h-2/5 lg:-ml-40 lg:w-64"
                 />
               </div>
-              <div className="flex justify-center m-auto ml-60">
-                <ul className="flex m-auto justify-center gap-10">
-                  <li>Genesis 8.1</li>
-                  <li>Genesis 8</li>
-                  <li>Genesis 3</li>
-                  <li>Genesis 2</li>
-                  <li>Genesis</li>
-                  <li>Michael & Victoria 4</li>
+              <div className="lg:flex lg:justify-center m-auto lg:ml-60">
+                <ul className="text-center mt-10 lg:flex lg:m-auto lg:justify-center lg:gap-10 font-semibold">
+                  <li className="text-green-400 mt-4">Genesis 8.1</li>
+                  <li className="mt-4">Genesis 8</li>
+                  <li className="mt-4">Genesis 3</li>
+                  <li className="mt-4">Genesis 2</li>
+                  <li className="mt-4">Genesis</li>
+                  <li className="mt-4">Michael & Victoria 4</li>
                 </ul>
               </div>
-              <div className="w-80 flex justify-center m-auto mt-10 mr-40 ">
+              <div className="lg:w-80 flex justify-center m-auto lg:mt-10 lg:mr-40 ">
                 <img
                   s
                   src="softwareimages/carousel-bar.png"
                   alt=""
-                  className="h-32 w-full"
+                  className="hidden lg:flex h-32 w-full"
                 />
-                <p className="flex justify-center items-cetner w-86 mt-5 ">
+                <img
+                  src="softwareimages/genesis-bg.png"
+                  alt="Hero Image"
+                  className="relative lg:hidden  "
+                />
+                <p className="absolute lg:static text-center lg:text-left lg:flex lg:justify-center lg:items-cetner lg:w-86 mt-5 ">
                   Because Daz 3D is always innovating and moving forward, we
                   regularly update and enhance Daz Studio with new products like
                   Face Transfer and advanced animation capabilities. Daz 3D’s
@@ -262,39 +262,44 @@ function Software() {
               </div>
             </div>
           </div>
-          <div className="grid grid-cols-2 ">
-            <div className="relative ml-40 ">
+          <div className="lg:grid lg:grid-cols-2 ">
+            <div className="lg:relative lg:ml-40 ">
               <img
                 src="softwareimages/filament.jpg"
                 alt="Filament"
-                className="h-64 top-40 left-20 absolute"
+                className="w-full lg:h-64 lg:top-40 lg:left-20 lg:absolute"
               />
+              <button className="lg:absolute flex justify-center mt-20 bottom-0 lg:left-60 border-none m-auto lg:mb-32 bg-softwareBtn p-2  w-2/5 text-black font-poppins font-semibold hover:text-white hover:bg-softwareBtnHover">
+                LEARN MORE
+              </button>
             </div>
-            <div className="relative mr-20">
+            <div className="lg:relative lg:mr-20 mb-20">
               <img
                 src="softwareimages/bg-circle.png"
                 alt="Circle"
-                className=""
+                className="hidden lg:flex"
               />
-              <div className="absolute inset-0 top-10  left-32 mt-20 w-80 ">
-                <p className="text-green-400 font-semibold">FILAMENT</p>
-                <p className="mt-5">
+
+              <div className="m-auto lg:m-0 w-96 lg:absolute lg:inset-0 lg:top-10  lg:left-32 lg:mt-20 lg:w-80 ">
+                <p className="mt-16 text-green-400 font-semibold text-2xl text-center lg:text-left lg:text-base lg:mt-0">
+                  FILAMENT
+                </p>
+                <p className="mt-10 text-center lg:text-left lg:mt-5">
                   Daz Studio 4.14’s Filament enabled viewport and render engine
                   gives you high quality renders in a fraction of the time it
                   takes other render engines, so you don’t have to wait all day
                   to see your output, even with older systems and systems that
                   don’t quite have as many CPUs/GPUs.
                 </p>
-                <p className="flex mt-2 items-center gap-2">
+                <p className="mt-4 ml-4 flex lg:mt-2 items-center gap-2 lg:ml-0">
                   <RiCircleFill size={10} color="#00C279" />
                   Design in real time with incredible quality
                 </p>
-                <p className="flex mt-2 items-center gap-2">
+                <p className="mt-4 ml-4 flex lg:mt-2 items-center gap-2 lg:ml-0">
                   <RiCircleFill size={10} color="#00C279" />
                   Speed up render time by 10x
                 </p>
-
-                <p className="flex mt-2 items-center gap-2">
+                <p className="mt-4 ml-4 flex lg:mt-2 items-center gap-2 lg:ml-0">
                   <RiCircleFill size={10} color="#00C279" />
                   Real-time and high quality animation
                 </p>
@@ -303,38 +308,42 @@ function Software() {
           </div>
 
           {/* NEW  */}
-          <div className="grid grid-cols-2">
-            <div className="relative mr-20">
+          <div className="lg:grid lg:grid-cols-2">
+            <div className="lg:relative lg:mr-20">
               <img
                 src="softwareimages/bg-circle.png"
                 alt="Circle"
-                className="ml-32"
+                className="w-40 mt-96 lg:mt-0 lg:ml-32 lg:w-full"
               />
-              <div className="absolute inset-0 top-10  left-28 ml-32 mt-20 w-80 ">
-                <p className="text-green-400 font-semibold">DAZ BRIDGES</p>
-                <p className="mt-5">
+              <div className="w-96 lg:absolute lg:inset-0 lg:top-10  lg:left-28 lg:ml-32 lg:mt-20 lg:w-80 ">
+                <p className="text-center text-2xl text-green-400 font-semibold lg:text-left lg:text-base">DAZ BRIDGES</p>
+                
+                <p className="mt-5 text-center lg:text-left ">
                   Take your 3D library wherever you create with Daz Bridges.
                   These bridges transfer amazing Daz content to the software you
                   create in, textured, rigged, and ready to render.
                 </p>
-                <p className="mt-2">
+                <p className="mt-2 text-center lg:text-left ">
                   Daz offers file formats ready for your preferred program, and
                   bridges to tranfer directly from Daz Studio into Blender,
                   Unreal, Unity, Cinema 4D, Maya, and 3ds Max.
                 </p>
               </div>
             </div>
-            <div className="relative">
+            <div className="relative mb-20 lg:mb-0 ">
               <img
                 src="softwareimages/dazbridge-asset1.png"
                 alt="Filament"
-                className="h-48 top-40 absolute z-10"
+                className="hidden lg:flex h-48 top-40 absolute z-10"
               />
               <img
                 src="softwareimages/dazbridge-asset2.png"
                 alt="Filament"
-                className="top-20 left-20 absolute"
+                className="bottom-80 lg:bottom-0  lg:top-20 lg:left-20 absolute"
               />
+               <button className="lg:absolute flex justify-center lg:mt-20 bottom-0 lg:left-20  border-none m-auto lg:mb-20 bg-softwareBtn p-2  w-2/5 text-black font-poppins font-semibold hover:text-white hover:bg-softwareBtnHover">
+                LEARN MORE
+              </button>
             </div>
           </div>
           <div className="flex">
