@@ -58,7 +58,7 @@ function Navigation() {
                 <Link to="">SHOP</Link>
               </li>
               <li>
-                <Link to="">3D SOFTWARE</Link>
+                <Link to="/software">3D SOFTWARE</Link>
               </li>
               <li>
                 <Link to="">3D MODELS</Link>
@@ -90,7 +90,9 @@ function Navigation() {
             </li>
           </ul>
           <ul className="w-24">
+           <Link to="/">
             <img src="images/daz3d.svg" alt="Logo" />
+           </Link> 
           </ul>
           <ul>
             <li className="flex gap-2 mr-4">
@@ -125,7 +127,7 @@ function Navigation() {
                       className="flex justify-between items-center"
                       onClick={toggleSoftwareCollapsed}
                     >
-                      3D SOFTWARE
+               3D SOFTWARE
                       {isSoftwareCollapsed ? (
                         <RiArrowDropRightLine size={30} />
                       ) : (
@@ -134,7 +136,10 @@ function Navigation() {
                     </div>
                   }
                 >
-                  <li className="mt-4">Daz Studio</li>
+                  <li className="mt-4">
+                  <Link to="/software">
+Daz Studio
+                  </Link></li>
                   <li className="mt-4">Install Manager</li>
                   <li className="mt-4">Daz to Maya</li>
                   <li className="mt-4">Daz to Blender</li>

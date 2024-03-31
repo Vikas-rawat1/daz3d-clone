@@ -1,6 +1,4 @@
-import React from "react";
-import { RiCircleFill, RiDonutChartFill } from "react-icons/ri";
-import ReactPlayer from "react-player";
+import { RiCircleFill } from "react-icons/ri";
 function Software() {
   const spanLine = {
     background: "gray",
@@ -11,10 +9,12 @@ function Software() {
     margin: "auto",
     marginTop: "6vw",
   };
-
+  const bg = {
+    background: "#0F1039",
+  };
   return (
     <>
-      <div className="bg-black">
+      <div style={bg}>
         <div>
           <div className="mt-16 relative ">
             <img
@@ -27,35 +27,42 @@ function Software() {
               alt="Hero Image"
               className="w-full lg:hidden lg:object-contain lg:w-full lg:h-full"
             />
-            <div className="absolute lg:bottom-40 lg:top-60 lg:right-80 text-white ">
+            <div className=" text-center lg:text-left  lg:absolute lg:bottom-40 lg:top-60 lg:right-80 text-white ">
               <h1 className="text-5xl ">Create More</h1>
               <h2 className="text-2xl mt-6">Download Daz Studio</h2>
-              <button className="border-none  bg-softwareBtn p-2  w-4/5 mt-8 text-black font-poppins font-bold hover:text-white hover:softwareBtnHover">
+              <button className="border-none  bg-softwareBtn p-2 w-3/5 lg:w-4/5 mb-20 mt-8 text-black font-poppins font-semibold hover:text-white hover:softwareBtnHover">
                 FREE DOWNLOAD
               </button>
             </div>
           </div>
         </div>
         <div className="bg-black text-white  ">
-          <div className="lg:flex ">
-            {/* <p className="absolute top-10 text-2xl font-bold lg:mt-20">
+          <div className=" flex lg:flex-row flex-col-reverse ">
+            {/* <p className="relative top-10 text-2xl font-bold lg:mt-20">
               Figure Platform
             </p> */}
+            <p className="flex lg:hidden lg:mt-20 w-96 m-auto text-center">
+              At Daz 3D, our figure content is designed with high adjustability
+              to easily become any character. Genesis 9 is our latest and most
+              advanced platform and, with billions of potential combinations and
+              a diverse collection of supporting assets, is our most versatile
+              figure platform yet.
+            </p>
             <img
               src="softwareimages/figureplatform.png"
               alt="FigurePlatform"
-              className="lg:w-96 lg:ml-60 lg:mt-20 mt-40"
+              className="lg:w-96 lg:ml-60 lg:mt-20 "
             />
             <div className="text-white relative lg:block ">
               <img
                 src="softwareimages/figureplatformbg.png"
                 alt="FigurePlatformBg"
-                className="object-contain mt-40  lg:-ml-20 lg:mt-1 "
+                className="relative object-contain   lg:-ml-20 lg:mt-1 "
               />
-              <p className="lg:absolute lg:top-0 lg:text-2xl font-bold lg:mt-20">
+              <p className="text-4xl absolute top-10 left-40 lg:left-0 lg:top-0 lg:text-2xl font-bold lg:mt-20">
                 Figure Platform
               </p>
-              <p className="lg:mt-20 w-96 text-red-500">
+              <p className="hidden lg:flex lg:mt-20 w-96 text-white">
                 At Daz 3D, our figure content is designed with high
                 adjustability to easily become any character. Genesis 9 is our
                 latest and most advanced platform and, with billions of
@@ -308,16 +315,18 @@ function Software() {
           </div>
 
           {/* NEW  */}
-          <div className="lg:grid lg:grid-cols-2">
-            <div className="lg:relative lg:mr-20">
+          <div className="m-auto  lg:grid lg:grid-cols-2">
+            <div className="m-auto lg:relative lg:mr-20">
               <img
                 src="softwareimages/bg-circle.png"
                 alt="Circle"
-                className="w-40 mt-96 lg:mt-0 lg:ml-32 lg:w-full"
+                className="ml-10 w-40 mt-96 lg:mt-0 lg:ml-32 lg:w-full"
               />
-              <div className="w-96 lg:absolute lg:inset-0 lg:top-10  lg:left-28 lg:ml-32 lg:mt-20 lg:w-80 ">
-                <p className="text-center text-2xl text-green-400 font-semibold lg:text-left lg:text-base">DAZ BRIDGES</p>
-                
+              <div className="w-96 m-auto lg:absolute lg:inset-0 lg:top-10  lg:left-28 lg:ml-32 lg:mt-20 lg:w-80 ">
+                <p className="text-2xl m-auto text-center text-green-400 font-semibold lg:text-left lg:text-base">
+                  DAZ BRIDGES
+                </p>
+
                 <p className="mt-5 text-center lg:text-left ">
                   Take your 3D library wherever you create with Daz Bridges.
                   These bridges transfer amazing Daz content to the software you
@@ -339,9 +348,9 @@ function Software() {
               <img
                 src="softwareimages/dazbridge-asset2.png"
                 alt="Filament"
-                className="bottom-80 lg:bottom-0  lg:top-20 lg:left-20 absolute"
+                className="bottom-80 right-0 left-5  lg:bottom-0  lg:top-20 lg:left-20 lg-right-0 absolute"
               />
-               <button className="lg:absolute flex justify-center lg:mt-20 bottom-0 lg:left-20  border-none m-auto lg:mb-20 bg-softwareBtn p-2  w-2/5 text-black font-poppins font-semibold hover:text-white hover:bg-softwareBtnHover">
+              <button className="lg:absolute flex justify-center lg:mt-20 bottom-0 lg:left-20  border-none m-auto lg:mb-20 bg-softwareBtn p-2  w-2/5 text-black font-poppins font-semibold hover:text-white hover:bg-softwareBtnHover">
                 LEARN MORE
               </button>
             </div>
@@ -349,11 +358,11 @@ function Software() {
           <div className="flex">
             <span style={spanLine}></span>
           </div>
-          <div className="flex flex-col">
-            <p className="text-center text-4xl  mt-10 justify-center m-auto">
+          <div className="flex flex-col m-auto">
+            <p className="text-3xl text-center lg:text-4xl  mt-10 justify-center m-auto">
               Download Daz Studio for free
             </p>
-            <button className="border-none m-auto mb-20 bg-softwareBtn p-2  w-1/5 mt-12 text-black font-poppins font-bold hover:text-white hover:bg-softwareBtnHover">
+            <button className="border-none m-auto lg:mb-20 bg-softwareBtn p-2 mb-10  lg:w-1/5 mt-12 text-black font-poppins font-semibold hover:text-white hover:bg-softwareBtnHover">
               FREE DOWNLOAD
             </button>
           </div>
