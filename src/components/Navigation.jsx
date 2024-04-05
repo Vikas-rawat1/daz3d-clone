@@ -9,11 +9,13 @@ import {
   RiUserLine,
 } from "react-icons/ri";
 import Collapsible from "react-collapsible";
+
 function Navigation() {
   const [showMenu, setShowMenu] = useState(false);
   const [isSoftwareCollapsed, setSoftwareCollapsed] = useState(true);
   const [isModelCollapsed, setModelCollapsed] = useState(true);
   const [isCommunityCollapsed, setCommunityCollapsed] = useState(true);
+
   const toggleMenu = () => {
     setShowMenu(!showMenu);
   };
@@ -21,50 +23,51 @@ function Navigation() {
   const toggleSoftwareCollapsed = () => {
     setSoftwareCollapsed(!isSoftwareCollapsed);
     if (!isSoftwareCollapsed) {
-      setModelCollapsed(true); // Close models collapsible
-      setCommunityCollapsed(true); // Close community collapsible
+      setModelCollapsed(true);
+      setCommunityCollapsed(true);
     }
   };
 
   const toggleModelCollapsed = () => {
     setModelCollapsed(!isModelCollapsed);
     if (!isModelCollapsed) {
-      setSoftwareCollapsed(true); // Close software collapsible
-      setCommunityCollapsed(true); // Close community collapsible
+      setSoftwareCollapsed(true);
+      setCommunityCollapsed(true);
     }
   };
 
   const toggleCommunityCollapsed = () => {
     setCommunityCollapsed(!isCommunityCollapsed);
     if (!isCommunityCollapsed) {
-      setSoftwareCollapsed(true); // Close software collapsible
-      setModelCollapsed(true); // Close models collapsible
+      setSoftwareCollapsed(true);
+      setModelCollapsed(true);
     }
   };
+  // const container = window !== undefined ? () => window().document.body : undefined;
 
   return (
     <>
       <div className="fixed top-0 left-0 right-0 w-full z-20">
+        {/* Desktop Navigation */}
         <div className="hidden lg:flex justify-between h-16 items-center bg-headerColor text-gray-400">
           <div>
             <ul className="flex items-center text-xs gap-4 ml-4">
               <li>
-              <Link to="/">
-                 <img src="images/daz3d.svg" alt="Logo" className="h-7" />
-
-              </Link>
+                <Link to="/">
+                  <img src="images/daz3d.svg" alt="Logo" className="h-7" />
+                </Link>
               </li>
               <li>
-                <Link to="">SHOP</Link>
+                <Link to="/">SHOP</Link>
               </li>
               <li>
                 <Link to="/software">3D SOFTWARE</Link>
               </li>
               <li>
-                <Link to="">3D MODELS</Link>
+                <Link to="/models">3D MODELS</Link>
               </li>
               <li>
-                <Link to="">COMMUNITY</Link>
+                <Link to="/community">COMMUNITY</Link>
               </li>
             </ul>
           </div>
@@ -77,11 +80,17 @@ function Navigation() {
                   className="outline-none border-none rounded-sm h-6 w-48 text-black text-sm"
                 />
               </li>
-              <li>DOWNLOAD STUDIO </li>
-              <li>ACCOUNT</li>
+              <li>
+                <Link to="/download-studio">DOWNLOAD STUDIO</Link>
+              </li>
+              <li>
+                <Link to="/account">ACCOUNT</Link>
+              </li>
             </ul>
           </div>
         </div>
+
+        {/* Mobile Navigation */}
         <div className=" lg:hidden justify-between h-16 items-center bg-headerColor text-gray-400 flex">
           <ul>
             <li className="flex gap-2 ml-4" onClick={toggleMenu}>
@@ -90,9 +99,9 @@ function Navigation() {
             </li>
           </ul>
           <ul className="w-24">
-           <Link to="/">
-            <img src="images/daz3d.svg" alt="Logo" />
-           </Link> 
+            <Link to="/">
+              <img src="images/daz3d.svg" alt="Logo" />
+            </Link>
           </ul>
           <ul>
             <li className="flex gap-2 mr-4">
@@ -101,10 +110,11 @@ function Navigation() {
             </li>
           </ul>
         </div>
-        <div className="transition-transform duration-900 ">
+
+        {/* Side Menu */}
         {showMenu && (
-          <div className="lg:hidden fixed top-0 left-0 h-full bg-gray-800 w-11/12 overflow-y-scroll transition-transform duration-900 ">
-            <ul className=" transition-transform duration-900 text-xm text-yellow-50  ">
+          <div className="lg:hidden fixed top-0 left-0 h-full bg-gray-800 w-11/12 overflow-y-scroll">
+            <ul className="text-xm text-yellow-50">
               <span>
                 <li className="flex items-center justify-between mt-4 ml-3">
                   <RiCloseLine size={30} onClick={toggleMenu} />
@@ -127,7 +137,7 @@ function Navigation() {
                       className="flex justify-between items-center"
                       onClick={toggleSoftwareCollapsed}
                     >
-               3D SOFTWARE
+                      3D SOFTWARE
                       {isSoftwareCollapsed ? (
                         <RiArrowDropRightLine size={30} />
                       ) : (
@@ -137,9 +147,10 @@ function Navigation() {
                   }
                 >
                   <li className="mt-4">
-                  <Link to="/software">
-Daz Studio
-                  </Link></li>
+                    <Link to="/software" onClick={toggleMenu}>
+                      Daz Studio
+                    </Link>
+                  </li>
                   <li className="mt-4">Install Manager</li>
                   <li className="mt-4">Daz to Maya</li>
                   <li className="mt-4">Daz to Blender</li>
@@ -186,20 +197,18 @@ Daz Studio
                     </div>
                   }
                 >
-                  <li className="mt-4"></li>
-                  <li className="mt-4">Our Community </li>
+                  <li className="mt-4">
+                    <Link to="/community" onClick={toggleMenu}>Our Community</Link>
+                  </li>
                   <li className="mt-4">Gallery</li>
                   <li className="mt-4">Forums</li>
                   <li className="mt-4">Blog</li>
-                  <li className="mt-4">Daz to Unity</li>
-                  <li className="mt-4">Blog</li>
-                  <li className="mt-4">Help </li>
+                  <li className="mt-4">Help</li>
                 </Collapsible>
               </li>
             </ul>
           </div>
         )}
-      </div>
       </div>
     </>
   );
