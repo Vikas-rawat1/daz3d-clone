@@ -63,9 +63,9 @@ function Navigation() {
               <li>
                 <Link to="/software">3D SOFTWARE</Link>
               </li>
-              <li>
+              {/* <li>
                 <Link to="/models">3D MODELS</Link>
-              </li>
+              </li> */}
               <li>
                 <Link to="/community">COMMUNITY</Link>
               </li>
@@ -81,7 +81,7 @@ function Navigation() {
                 />
               </li>
               <li>
-                <Link to="/download-studio">DOWNLOAD STUDIO</Link>
+                <Link to="/download">DOWNLOAD STUDIO</Link>
               </li>
               <li>
                 <Link to="/account">ACCOUNT</Link>

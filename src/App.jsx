@@ -6,6 +6,7 @@ import HeroSection from "./components/Home/HeroSection";
 import Software from "./Pages/Software";
 import Footer from "./components/Footer";
 import Community from "./Pages/Community";
+import Download from "./Pages/Download";
 
 function App() {
   return (
@@ -17,6 +18,7 @@ function App() {
           {/* <Route path="/Shop" element={<Shop />} /> */}
           <Route path="/software" element={<Software />} />
           <Route path="/community"  element={<Community/>}/>
+          <Route path="/download"  element={<Download/>}/>
         </Routes>
         <Footer/>
       </Router>
