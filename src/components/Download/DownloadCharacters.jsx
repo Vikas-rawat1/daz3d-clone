@@ -10,11 +10,7 @@ function DownloadCharacters() {
   return (
     <>
       <div className="bg-black text-white">
-        <div className="flex">
-          <p className="text-2xl ml-10 lg:ml-12 mt-12 lg:text-5xl font-poppins">
-            Latest Characters
-          </p>
-        </div>
+        <div className="flex"></div>
 
         <div className="justify-between flex-col">
           <div className="ml-10  lg:grid lg:grid-cols-2 m-auto gap-5 mt-1 mr-16 lg:ml-16 flex flex-col-reverse lg:mt-40">
@@ -136,7 +132,11 @@ function DownloadCharacters() {
             <div className="lg:justify-between lg:m-auto">
               <div className="mt-6 lg:grid lg:grid-cols-2 m-auto lg:gap-5 lg:mt-10 lg:mr-10 lg:ml-10 ">
                 <div>
-                  <img src="downloadimages/latest1.png" alt="asset1" className="w-full" />
+                  <img
+                    src="downloadimages/latest1.png"
+                    alt="asset1"
+                    className="w-full"
+                  />
                   <h1 className="text-xl ml-10 lg:ml-0 mt-6 font-semibold lg:text-4xl lg:font-bold lg:mt-4">
                     Hanako 9 is The Face of Cosplay
                   </h1>

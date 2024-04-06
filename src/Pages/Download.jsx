@@ -4,7 +4,7 @@ import DownloadCharacters from "../components/Download/DownloadCharacters";
 function Download() {
   return (
     <>
-      <div className="relative w-full h-screen ">
+      <div className="relative w-full h-screen  bg-black">
         <div>
           <video
             src="downloadimages/hero.mp4"
@@ -14,8 +14,8 @@ function Download() {
             className="w-full h-80 lg:h-screen object-cover mt-16"
           ></video>
         </div>
-        <div className="absolute top-0 left-0 z-10 lg:mb-16 ">
-          <div className="grid grid-cols-2 gap-4 ">
+        <div className="absolute top-0 left-0 z-10 lg:mb-16  text-white">
+        <div className="grid grid-cols-2 gap-4 ">
             <div className="text-white ml-5 lg:ml-10 ">
               <p className="text-4xl w-80 mt-10 font-poppins font-semibold lg:text-6xl lg:mt-20 lg:w-full  ">
                 World's most versatile Genesis character creator
@@ -25,12 +25,12 @@ function Download() {
                 forms the cornerstone of Daz’s ecosystem
               </p>
               <button className="mt-4 rounded-full w-52 h-10 text-black outline-none font-semibold bg-teal-400 hover:bg-transparent hover:text-teal-400 hover:border-teal-400 hover:border-2 transition duration-300">
-                Get started for free
+              Download Daz Studio
               </button>
             </div>
           </div>
         </div>
-        <div className=" lg:justify-between grid  grid-cols-1 lg:grid-cols-4  lg:gap-10 lg:items-center text-white bg-headerColor font-poppins lg:h-64 ">
+        <div className=" lg:justify-between grid  grid-cols-1 lg:grid-cols-4  lg:gap-10 lg:items-center text-white bg-headerColor font-poppins lg:h-64  ">
           <div className="lg:ml-14 mt-8 flex ">
             <img
               src="images/daz-ecosystem.png"
