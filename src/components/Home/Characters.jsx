@@ -127,7 +127,7 @@ function Characters() {
           </div>
         </div>
       </div>
-     <About/>
+      <About />
     </>
   );
 }

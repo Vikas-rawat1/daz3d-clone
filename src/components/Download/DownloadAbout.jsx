@@ -1,6 +1,5 @@
 import React from "react";
 import Marquee from "react-fast-marquee";
-import { RiCheckFill } from "react-icons/ri";
 
 function DownloadAbout() {
   return (
@@ -152,20 +151,26 @@ function DownloadAbout() {
             <div className="transform skew-y-1 flex justify-between">
               <div className="lg:justify-between lg:ml-16 m-auto  mt-10 ">
                 <div className="  lg:grid lg:grid-cols-2  lg:gap-20">
-                  <div className="justify-start ml-10 ">
-                    <img src="downloadimages/ui-image.webp" alt="ui-image" />
+                  <div className="w-4/5 m-auto  justify-center flex lg:w-full ">
+                    <img
+                      src="downloadimages/ui-image.webp"
+                      alt="ui-image"
+                      className=""
+                    />
                   </div>
-                  <div className="">
-                    <h1 className="lg:text-5xl  font-poppins font-semibold">Turn your ideas into reality</h1>
-                    <p className="text-xl lg:w-4/5 lg:mt-12">
+                  <div className="m-auto">
+                    <h1 className=" text-3xl w-80 mt-12 m-auto lg:w-96 lg:mt-12 lg:m-0 lg:text-left lg:text-5xl  font-poppins font-semibold">
+                      Turn your ideas into reality
+                    </h1>
+                    <p className=" mt-10 w-80 m-auto lg:w-96 lg:m-0 lg:text-left lg:mt-10 lg:text-xl  font-poppins ">
                       Daz Studio, when combined with our Genesis character
                       engine and 3D asset library, opens up limitless creative
                       possibilities. Experience effortless modification and
                       adaptation, empowering you to bring your artistic visions
                       to life
                     </p>
-                    <button className="mt-5 text-xl  lg:mt-10  rounded-full w-72 h-12 text-black outline-none  bg-teal-400 hover:bg-transparent hover:text-teal-400 hover:border-teal-400 hover:border-2 transition duration-300">
-                    Get started for free
+                    <button className="mt-10 ml-8  m-auto text-xl  lg:mt-10 lg:ml-0 rounded-full w-64 h-12 text-black outline-none  bg-teal-400 hover:bg-transparent hover:text-teal-400 hover:border-teal-400 hover:border-2 transition duration-300">
+                      Get started for free
                     </button>
                   </div>
                 </div>

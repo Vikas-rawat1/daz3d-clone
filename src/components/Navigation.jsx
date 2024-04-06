@@ -176,7 +176,9 @@ function Navigation() {
                     </div>
                   }
                 >
-                  <li className="mt-4">Genesis 9</li>
+                  <li className="mt-4">
+                    <Link to="/download" onClick={toggleMenu}>Genesis 9</Link>
+                  </li>
                   <li className="mt-4">Genesis 8.1</li>
                   <li className="mt-4">Free 3D Models</li>
                 </Collapsible>
@@ -198,7 +200,9 @@ function Navigation() {
                   }
                 >
                   <li className="mt-4">
-                    <Link to="/community" onClick={toggleMenu}>Our Community</Link>
+                    <Link to="/community" onClick={toggleMenu}>
+                      Our Community
+                    </Link>
                   </li>
                   <li className="mt-4">Gallery</li>
                   <li className="mt-4">Forums</li>

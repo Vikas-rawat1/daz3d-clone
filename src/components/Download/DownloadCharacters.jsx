@@ -1,7 +1,6 @@
 import React from "react";
 import { RiCheckFill } from "react-icons/ri";
 import "../../App.css";
-import About from "../Home/About";
 import DownloadAbout from "./DownloadAbout";
 
 function DownloadCharacters() {
@@ -51,7 +50,7 @@ function DownloadCharacters() {
                 Get Daz Studio for free
               </button>
             </div>
-            <div className="lg:overflow-hidden lg:justify-end ml-10 lg:ml-0">
+            <div className="mt-20 lg:overflow-hidden lg:justify-end ml-10 lg:ml-0">
               <video
                 src="downloadimages/morph-boy.mp4"
                 autoPlay
@@ -137,11 +136,11 @@ function DownloadCharacters() {
             <div className="lg:justify-between lg:m-auto">
               <div className="mt-6 lg:grid lg:grid-cols-2 m-auto lg:gap-5 lg:mt-10 lg:mr-10 lg:ml-10 ">
                 <div>
-                  <img src="downloadimages/latest1.png" alt="asset1" />
-                  <h1 className="text-2xl ml-10 lg:ml-0 mt-6 font-semibold lg:text-4xl lg:font-bold lg:mt-4">
+                  <img src="downloadimages/latest1.png" alt="asset1" className="w-full" />
+                  <h1 className="text-xl ml-10 lg:ml-0 mt-6 font-semibold lg:text-4xl lg:font-bold lg:mt-4">
                     Hanako 9 is The Face of Cosplay
                   </h1>
-                  <p className="ml-10 w-96 mt-5 lg:text-lg lg:ml-0">
+                  <p className="ml-10 w-80 mt-5 lg:text-lg lg:ml-0">
                     Get 2 ‘cosplay’ inspired outfits, Eye textures 3 alternative
                     shapes, and more!
                   </p>
@@ -151,7 +150,7 @@ function DownloadCharacters() {
                 </div>
                 <div>
                   <img src="downloadimages/latest2.png" alt="asset2" />
-                  <h1 className="text-2xl ml-10 lg:ml-0 mt-6 font-semibold lg:text-4xl lg:font-bold lg:mt-4">
+                  <h1 className="text-xl ml-10 lg:ml-0 mt-6 font-semibold lg:text-4xl lg:font-bold lg:mt-4">
                     Introducing John 9
                   </h1>
                   <p className="w-72 ml-10 lg:ml-0 mt-5 text-lg">
