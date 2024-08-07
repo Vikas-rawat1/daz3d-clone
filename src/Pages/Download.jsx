@@ -96,7 +96,7 @@ function Download() {
                 props   
               </p>
             </div>
-          </div>
+          </div> 
           <div className="lg:w-4/5 lg:mt-8 lg:block lg:mb-10  w-72 flex gap-10 ml-6 mt-6 items-center">
             <img
               src="images/character.png"
