@@ -93,7 +93,7 @@ function Download() {
               <p className="lg:text-2xl text-xl font-bold ">Daz store</p>
               <p className="lg:text-lg text-lg ">
                 Ready-made 3D models and kits for characters, environments &
-                props 
+                props  
               </p>
             </div>
           </div>
