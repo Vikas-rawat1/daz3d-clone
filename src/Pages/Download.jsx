@@ -103,10 +103,6 @@ function Download() {
               alt="Character"
               className="lg:w-10 w-10 lg:mb-2"
             />
-            <div>
-              <p className="text-2xl font-bold">Character creator</p>
-              <p className="lg:text-lg">
-                Quickly dress and alter your character shapes, textures & hair
               </p>
             </div>
           </div>
