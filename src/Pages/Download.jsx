@@ -85,10 +85,10 @@ function Download() {
           </div>sdfsadf
           <div className="lg:w-4/5 lg:mt-8 lg:block lg:mb-10 w-72 flex gap-10 ml-6 items-center">
             <imgz
-              src="images/cart.svg"
+              src="images/cart.svg"dfds
               alt="Cart"
               className="lg:w-10 w-10 lg:mb-2"
-            />
+            />asdfasdf
             <div>
               <p className="lg:text-2xl text-xl font-bold ">Daz store</p>
               <p className="lg:text-lg text-lg ">
