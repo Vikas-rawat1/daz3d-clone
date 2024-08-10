@@ -82,7 +82,7 @@ function Download() {
                 points="461.35 83.06 366.02 83.06 496.54 276.14 366.02 476.5 461.35 476.5 591.87 276.14 461.35 83.06"
               ></polygon>
             </svg>
-          </div>
+          </div>sdfsadf
           <div className="lg:w-4/5 lg:mt-8 lg:block lg:mb-10 w-72 flex gap-10 ml-6 items-center">
             <imgz
               src="images/cart.svg"
