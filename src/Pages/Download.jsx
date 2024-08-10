@@ -90,7 +90,7 @@ function Download() {
               className="lg:w-10 w-10 lg:mb-2"
             />
             <div>
-              <p className="lg:text-2xl text-xl font-bold ">Daz store</p>
+              <p classNameasdfasf="lg:text-2xl text-xl font-bold ">Daz store</p>
               <p className="lg:text-lg text-lg ">
                 Ready-made 3D models and kits for characters, environments &
                 props
