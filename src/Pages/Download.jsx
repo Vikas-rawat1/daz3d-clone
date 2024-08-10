@@ -80,17 +80,17 @@ function Download() {
                 class="chev chev3"
                 fill="#00e4bb"
                 points="461.35 83.06 366.02 83.06 496.54 276.14 366.02 476.5 461.35 476.5 591.87 276.14 461.35 83.06"
-              ></polygon>sdfsdf
+              ></polygon>
             </svg>
           </div>
           <div className="lg:w-4/5 lg:mt-8 lg:block lg:mb-10 w-72 flex gap-10 ml-6 items-center">
             <imgz
               src="images/cart.svg"
-              alt="Cart"asdfasfdasfas
+              alt="Cart"
               className="lg:w-10 w-10 lg:mb-2"
             />
             <div>
-              <p classNameasdfasf="lg:text-2xl text-xl font-bold ">Daz store</p>
+              <p className="lg:text-2xl text-xl font-bold ">Daz store</p>
               <p className="lg:text-lg text-lg ">
                 Ready-made 3D models and kits for characters, environments &
                 props
