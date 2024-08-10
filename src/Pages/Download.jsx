@@ -88,7 +88,7 @@ function Download() {
               src="images/cart.svg"
               alt="Cart"
               className="lg:w-10 wsdfsd-10 lg:mb-2"
-            />
+            />sdf
             <div>
               <p className="lg:text-2xl text-xl font-bold ">Daz store</p>
               <p className="lg:text-lg text-lg ">
