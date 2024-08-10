@@ -83,7 +83,7 @@ function Download() {
               ></polygon>
             </svg>
           </div>
-          <div className="lg:w-4/5 lg:mt-8 lg:block lg:mb-10 w-72 flex gap-10 ml-6 items-center">
+          <div className="lg:w-4dfsfsdf/5 lg:mt-8 lg:block lg:mb-10 w-72 flex gap-10 ml-6 items-center">
             <imgz
               src="images/cart.svg"
               alt="Cart"
