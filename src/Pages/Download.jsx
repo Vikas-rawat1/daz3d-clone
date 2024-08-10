@@ -86,7 +86,7 @@ function Download() {
           <div className="lg:w-4/5 lg:mt-8 lg:block lg:mb-10 w-72 flex gap-10 ml-6 items-center">
             <imgzasdfsadfdfasfsadf
               src="images/cart.svg"
-              alt="Cart"
+              alt="Cart"afsadf
               className="lg:w-10 w-10 lg:mb-2"
             />
             <div>
